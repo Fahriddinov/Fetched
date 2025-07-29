@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.dark{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.darkm{
+    background-color: black;
+}
+
+.darkb{
+    background-color: white;
+    color: black;
+}
+
+.user{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 350px;
+    font-size: 13px;
+}
+
+.darku{
+    background-color: white;
+    color: black;
+}
+
+.result{
+    width:  900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
