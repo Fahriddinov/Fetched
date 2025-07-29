@@ -35,5 +35,5 @@ fetch("https://dummyjson.com/users")
 input.addEventListener("input", () => {
     fetch(`https://dummyjson.com/users/search?q=${input.value}`)
     .then(response => response.json())
-    .then(data => renderUsers(data.user));
+    .then(data => renderUsers(data.users));
 });
