@@ -1,10 +1,10 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.input{
+.input {
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -12,7 +12,7 @@ body{
     width: 400px;
 }
 
-.dark{
+.dark {
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
@@ -24,31 +24,32 @@ body{
     cursor: pointer;
 }
 
-.darkm{
+.darkm {
     background-color: black;
 }
 
-.darkb{
+.darkb {
     background-color: white;
     color: black;
 }
 
-.user{
+.user {
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid black;
     width: 350px;
     font-size: 13px;
+    background-color: yellow;
 }
 
-.darku{
+.darku {
     background-color: white;
     color: black;
 }
 
-.result{
-    width:  900px;
+.result {
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

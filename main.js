@@ -29,11 +29,11 @@ dark.addEventListener("click", () => {
 });
 
 fetch("https://dummyjson.com/users")
-.then(response => response.json())
-.then(data => renderUsers(data.users));
+    .then(response => response.json())
+    .then(data => renderUsers(data.users));
 
 input.addEventListener("input", () => {
     fetch(`https://dummyjson.com/users/search?q=${input.value}`)
-    .then(response => response.json())
-    .then(data => renderUsers(data.users));
+        .then(response => response.json())
+        .then(data => renderUsers(data.users));
 });
